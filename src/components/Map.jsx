@@ -23,9 +23,9 @@ export default function CustomUSAMap() {
         textAlign: "center",
         maxWidth: "100%",
         margin: "auto",
-        width: "825.51px", // Fixed width
-        height: "503.67px", // Fixed height
-        // border: "1.07px solid black", // Border styling
+        width: "825.51px",
+        height: "503.67px", 
+        // border: "1.07px solid black", 
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -50,11 +50,11 @@ export default function CustomUSAMap() {
                     onMouseLeave={handleMouseLeave}
                     style={{
                       default: {
-                        fill: "#14B8A6", // Teal-500 as the default color
+                        fill: "#14B8A6", 
                         outline: "none",
                       },
-                      hover: { fill: "#FFD700", outline: "none" }, // Yellow on hover
-                      pressed: { fill: "#FFD700", outline: "none" }, // Also yellow when clicked
+                      hover: { fill: "#FFD700", outline: "none" }, 
+                      pressed: { fill: "#FFD700", outline: "none" }, 
                     }}
                   />
                 );

@@ -18,9 +18,9 @@ const FeaturedOn = () => {
     display: "flex",
     alignItems: "center",
     gap: "24px",
-    width: "50%", // Ensures it fills the available space
-    overflow: "hidden", // Hides overflow to prevent breaking animation
-    position: "relative" // Keeps everything structured properly
+    width: "50%", 
+    overflow: "hidden", 
+    position: "relative" 
   }}
 >
   {/* Animated Scrolling Container */}
@@ -29,7 +29,7 @@ const FeaturedOn = () => {
       display: "flex",
       alignItems: "center",
       gap: "70px",
-      width: "max-content", // Prevents width restriction for smooth movement
+      width: "max-content", 
       animation: "scrollLeft 10s linear infinite"
     }}
   >

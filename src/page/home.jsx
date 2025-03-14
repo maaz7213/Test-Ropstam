@@ -1,5 +1,5 @@
 import FeaturedOn from "../components/FeaturedOn";
-import HeroSection from "../components/HERO.JSX";
+import HeroSection from "../components/Hero";
 import MedicationDeliveryWebsite from "../components/MedicationDeliveryWebsite";
 import StatesWeServe from "../components/StatesWeServe";
 import Testimonials from "../components/Testimonials";
